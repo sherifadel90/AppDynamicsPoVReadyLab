@@ -14,7 +14,7 @@ Follow This Guide to Install a complete Java Web based Application on Tomcat App
 <img src="https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp/blob/master/doc-images/supercars-home.png" width="400">
 
 ## Step 3: Follow DevNet Labs
-Complete  each of the  below 5 Labs of the different AppDynamics Agents :
+Complete  each of the  below 5 Labs of the different AppDynamics Agents & Modules:
 - Lab 1: [Java Application Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-01-appd-apm-java/step/1).
 - Lab 2: [Server Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-02-appd-svm/step/1).
 - Lab 3: [Browser Real User Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-03-appd-brum/step/1).
@@ -22,4 +22,4 @@ Complete  each of the  below 5 Labs of the different AppDynamics Agents :
 - Lab 5: [BiQ Fundamentals](https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp/tree/master/labs/fnd-06-appd-biq).
 
 ## Step 4: Review with your AppDynamics Channel SE
-Lastly, Review your work with your assinged AppDynamics Channel SE to approve your PoV-Ready Lab.
+Lastly, Review your work with your assigned AppDynamics Channel SE to approve your "PoV-Ready" Lab.
