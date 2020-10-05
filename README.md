@@ -4,11 +4,13 @@ The Lab purpose is to ensure that the Partner SE has the right Skills and Capabi
 ## Step 1:  Prepare Internal AppDynamics Platform using NFR license
 Follow This Guide to Install an On-premise AppDynamics Platform in your Environment using your Partner NFR license:
 [Platform Installation Guide](https://github.com/sherifadel90/AppDynamicsPlatformInstallation).
+
 <img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-onpremise-diagram.jpg" width="350">
 
 
 ## Step 2: Prepare a Sample Application Environment
 Follow This Guide to Install a complete Java Web based Application on Tomcat Application Server and a MySQL Database of the Supercars-Trader Sample Application,  that you will use to Install AppDynamics Agents on: [Supercar-Trader Installation Guide](https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp).
+
 <img src="https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp/blob/master/doc-images/supercars-home.png" width="400">
 
 ## Step 3: Follow DevNet Labs
