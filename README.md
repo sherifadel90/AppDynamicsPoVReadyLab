@@ -1,6 +1,13 @@
 # AppDynamics PoV-Ready Lab
 The Lab purpose is to ensure that the Partner SE has the right Skills and Capabilities to Prepare AppDynamics Environment and Install AppDynamics Solution to be ready to engage in a real Customer PoV. 
 
+This Hands-on Lab covers the Foundational Knowledge you'll need to deliver an AppDynamics Proof of Value, which is an essential knowledge you'll need before starting any Proof of Value Engagement with a Customer so that you have the right knowledge that allows us to be able to support you.
+
+Also, if you had an experience in a PoV, this will help you extend the knowledge around the various components within AppDynamics and allows you to have a running complete monitored environment for your reference and practice.
+
+<img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-LabPlan.png" width="350">
+
+
 ## Step 1:  Prepare Internal AppDynamics Platform using NFR license (3 Hours)
 Follow This Guide to Install an On-premise AppDynamics Platform in your Environment using your Partner NFR license:
 [Platform Installation Guide](https://github.com/sherifadel90/AppDynamicsPlatformInstallation).
