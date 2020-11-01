@@ -5,7 +5,7 @@ This Hands-on Lab covers the Foundational Knowledge you'll need to deliver an Ap
 
 Also, if you had an experience in a PoV, this will help you extend the knowledge around the various components within AppDynamics and allows you to have a running complete monitored environment for your reference and practice.
 
-<img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-LabPlan.png" width="350">
+<img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-LabPlan.png" width="500">
 
 
 ## Step 1:  Prepare Internal AppDynamics Platform using NFR license (3 Hours)
