@@ -15,12 +15,12 @@ Follow This Guide to Install an On-premise AppDynamics Platform in your Environm
 <img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-onpremise-diagram.jpg" width="350">
 
 
-## Step 2: Prepare a Sample Application Environment (2 Hour)
+## Step 2: Prepare a Sample Application Environment (2 Hours)
 Follow This Guide to Install a complete Java Web based Application on Tomcat Application Server and a MySQL Database of the Supercars-Trader Sample Application,  that you will use to Install AppDynamics Agents on: [Supercar-Trader Installation Guide](https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp).
 
 <img src="https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp/blob/master/doc-images/supercars-home.png" width="400">
 
-## Step 3: Follow DevNet Labs (8 Hours)
+## Step 3: Follow DevNet Labs (10 Hours)
 Complete  each of the  below 5 Labs of the different AppDynamics Agents & Modules:
 - Lab 1: [Java Application Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-01-appd-apm-java/step/1).
 - Lab 2: [Server Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-02-appd-svm/step/1).
