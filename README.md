@@ -26,7 +26,7 @@ Complete  each of the  below 5 Labs of the different AppDynamics Agents & Module
 - Lab 2: [Server Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-02-appd-svm/step/1).
 - Lab 3: [Browser Real User Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-03-appd-brum/step/1).
 - Lab 4: [Database Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-04-appd-dbmon/step/1).
-- Lab 5: [BusinessIQ Fundamentals](https://developer.cisco.com/learning/lab/fnd-05-appd-biq/step/1).
+- Lab 5: [BusinessIQ Fundamentals](https://developer.cisco.com/learning/lab/fnd-05-appd-biq/step/1). (Author: Sherif Medhat)
 
 ## Step 4: Review with your AppDynamics Channel SE
 Lastly, Review your work with your assigned AppDynamics Channel SE to approve your "PoV-Ready" Lab.
