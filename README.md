@@ -22,10 +22,10 @@ Follow This Guide to Install a complete Java Web based Application on Tomcat App
 
 ## Step 3: Follow DevNet Labs (10 Hours)
 Complete  each of the  below 5 Labs of the different AppDynamics Agents & Modules:
-- Lab 1: [Java Application Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-01-appd-apm-java/step/1).
-- Lab 2: [Server Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-02-appd-svm/step/1).
-- Lab 3: [Browser Real User Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-03-appd-brum/step/1).
-- Lab 4: [Database Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-04-appd-dbmon/step/1).
+- Lab 1: [Java Application Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-01-appd-apm-java/step/1). (Author: James Schneider)
+- Lab 2: [Server Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-02-appd-svm/step/1). (Author: James Schneider)
+- Lab 3: [Browser Real User Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-03-appd-brum/step/1). (Author: James Schneider)
+- Lab 4: [Database Visibility Monitoring Fundamentals](https://developer.cisco.com/learning/lab/fnd-04-appd-dbmon/step/1). (Author: James Schneider)
 - Lab 5: [BusinessIQ Fundamentals](https://developer.cisco.com/learning/lab/fnd-05-appd-biq/step/1). (Author: Sherif Medhat)
 
 ## Step 4: Review with your AppDynamics Channel SE
