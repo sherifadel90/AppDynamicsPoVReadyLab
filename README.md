@@ -8,18 +8,18 @@ Also, if you had an experience in a PoV, this will help you extend the knowledge
 <img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-LabPlan.png" width="650">
 
 ## PoV Brief Brief
-###Customer
+### Customer
 AD-SuperCars is an automotive dealership company. They provide digital dealership services that allow sellers to meet buyers and broker sales of used cars across the globe.
 
-###Application
+### Application
 The application is a public-facing home-grown legacy website for the automobile exchange that handles posting used cars for sale by the sellers to be viewed and  contacted by potential buyers.
 It is a monolithic web application built on Java Tomcat Server, and MySQL Database 
 
-###Pain
+### Pain
 Due to high demand on the application and being considered the only and main channel for AD-SuperCars business, a lot of performance issues have arisen, taking days to determine the root cause leading to Users (both buyers and sellers) sending in complaints that the site is slow and the experience is not very good
-###Role
+### Role
 As an AppDynamics Qualified Partner SE, You will be working with the lead operations engineer at AD-SuperCars, to implement AppDynamics Proof of Value “PoV” as part of their APM Initiative.
-###Goal
+### Goal
 The CTO has tasked his organization with implementing a monitoring solution that monitors the application health and performance specifically to identify the root cause of such performance issues in User Transactions and reduce their MTTR. 
 Also to visualise how the IT performance impacts the Business, Customer Experience and Revenue to get the business stakeholders on board to get their buy-in and have a clear roadmap on enhancing the service to increase the revenue
 Your mission if you choose to accept it, is not just to install AppDynamics Platform and Agents, but to Demonstrate the value of how all AppD agents combined can provide end to end visibility and correlation, highlight performance findings spotted by AppDynamics, and build an impressive Executive Dashboard.
