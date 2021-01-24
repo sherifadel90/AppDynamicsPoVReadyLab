@@ -24,8 +24,9 @@ As an AppDynamics Qualified Partner SE, You will be working with the lead operat
 
 ### Goal:
 The CTO has tasked his organization with implementing a monitoring solution that monitors the application health and performance specifically to identify the root cause of such performance issues in User Transactions and reduce their MTTR. 
-Also to visualise how the IT performance impacts the Business, Customer Experience and Revenue to get the business stakeholders on board to get their buy-in and have a clear roadmap on enhancing the service to increase the revenue
-Your mission if you choose to accept it, is not just to install AppDynamics Platform and Agents, but to Demonstrate the value of how all AppD agents combined can provide end to end visibility and correlation, highlight performance findings spotted by AppDynamics, and build an impressive Executive Dashboard.
+Also to visualise how the IT performance impacts the Business, Customer Experience and Revenue.
+Your mission if you choose to accept it, is not just to install AppDynamics Platform and Agents, but to Demonstrate the value of how all AppD agents combined can provide end to end visibility and correlation, highlight performance findings, and build an impressive Executive Dashboard.
+
 
 
 ## Step 1:  Prepare Internal AppDynamics Platform using NFR license (3 Hours)
