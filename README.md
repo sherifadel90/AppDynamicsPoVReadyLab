@@ -17,7 +17,7 @@ The application is a public-facing home-grown legacy website for the automobile 
 It is a monolithic web application built on Java Tomcat Server, and MySQL Database 
 
 ### Pain:
-Due to high demand on the application and being considered the only and main channel for AD-SuperCars business, a lot of performance issues have arisen, taking days to determine the root cause leading to Users (both buyers and sellers) sending in complaints that the site is slow and the experience is not very good
+Due to high demand on the application and being considered the only and main channel for AD-SuperCars business, a lot of performance issues have arisen taking days to determine their root cause, leading to high Users (both buyers and sellers) complaints that the site is slow and the experience is not very good impacting both Revenue and Retention.
 
 ### Your Role:
 As an AppDynamics Qualified Partner SE, You will be working with the lead operations engineer at AD-SuperCars, to implement AppDynamics Proof of Value “PoV” as part of their APM Initiative.
