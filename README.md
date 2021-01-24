@@ -1,13 +1,13 @@
 # AppDynamics PoV-Ready Lab
 The Lab purpose is to ensure that the Partner SE has the right Skills and Capabilities to Prepare AppDynamics Environment and Install AppDynamics Solution to be ready to engage in a real Customer PoV. 
 
-This Hands-on Lab covers the Foundational Knowledge you'll need to deliver an AppDynamics Proof of Value, which is an essential knowledge you'll need before starting any Proof of Value Engagement with a Customer so that you have the right knowledge that allows us to be able to support you.
+This Hands-on Lab covers the Foundational Knowledge you'll need to deliver an AppDynamics Proof of Value, which is an essential knowledge you'll need before starting any Customer Engagement that will enable you to deliver value and allow us to support you.
 
 Also, if you had an experience in a PoV, this will help you extend the knowledge around the various components within AppDynamics and allows you to have a running complete monitored environment for your reference and practice.
 
 <img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-LabPlan.png" width="650">
 
-## PoV Brief Brief
+## PoV Brief
 
 ### Customer:
 AD-SuperCars is an automotive dealership company. They provide digital dealership services that allow sellers to meet buyers and broker sales of used cars across the globe.
@@ -36,7 +36,7 @@ Follow This Guide to Install an On-premise AppDynamics Platform in your Environm
 <img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-onpremise-diagram.jpg" width="350">
 
 
-## Step 2: Prepare a Sample Application Environment (2 Hours)
+## Step 2: Deploy a Sample Application Environment (2 Hours)
 Follow This Guide to Install a complete Java Web based Application on Tomcat Application Server and a MySQL Database of the Supercars-Trader Sample Application,  that you will use to Install AppDynamics Agents on: [Supercar-Trader Installation Guide](https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp).
 
 <img src="https://github.com/sherifadel90/AppDynamics-SupercarsJavaApp/blob/master/doc-images/supercars-home.png" width="400">
