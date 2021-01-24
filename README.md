@@ -28,8 +28,6 @@ Also to visualise how the IT performance impacts the Business, Customer Experien
 Your mission if you choose to accept it, is not just to install AppDynamics Platform and Agents, but to Demonstrate the value of how all AppD agents combined can provide end to end visibility and correlation, highlight performance findings spotted by AppDynamics, and build an impressive Executive Dashboard.
 
 
-
-
 ## Step 1:  Prepare Internal AppDynamics Platform using NFR license (3 Hours)
 Follow This Guide to Install an On-premise AppDynamics Platform in your Environment using your Partner NFR license:
 [Platform Installation Guide](https://github.com/sherifadel90/AppDynamicsPlatformInstallation).
