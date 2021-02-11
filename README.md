@@ -51,3 +51,6 @@ Complete  each of the  below 5 Labs of the different AppDynamics Agents & Module
 
 ## Step 4: Review with your AppDynamics Channel SE
 Lastly, Review your work with your assigned AppDynamics Channel SE to approve your "PoV-Ready" Lab.
+
+## Troubleshooting Tips
+[TBD]
