@@ -33,7 +33,7 @@ Your mission if you choose to accept it, is not just to install AppDynamics Plat
 Follow This Guide to Install an On-premise AppDynamics Platform in your Environment using your Partner NFR license:
 [Platform Installation Guide](https://github.com/sherifadel90/AppDynamicsPlatformInstallation).
 
-<img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-onpremise-diagram.jpg" width="350">
+<img src="https://github.com/sherifadel90/AppDynamicsPlatformInstallation/blob/master/assets/images/00-onpremise-diagram.png" width="350">
 
 
 ## Step 2: Deploy a Sample Application Environment (2 Hours)
