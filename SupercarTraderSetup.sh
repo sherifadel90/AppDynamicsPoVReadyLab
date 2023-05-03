@@ -105,8 +105,6 @@ sed -i '{$!{N;s/<Valve.*\n.*allow.* \/>/<!--\n&\n-->/;ty;P;D;:y}}' /usr/local/ap
 cd /usr/local/apache/apache-tomcat-9/bin
 ./startup.sh
 
-wget --http-user=script --http-password=script  "http://localhost:8080/manager/text/deploy?war=file:/opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war&path=/Supercar-Trader"
-
 curl --user script:script --upload-file /opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war  http://localhost:8080/manager/text/deploy?path=/Supercar-Trader
 ##############
 
