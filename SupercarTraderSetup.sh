@@ -79,7 +79,7 @@ sudo systemctl start mysqld
 service mysqld status
 root_temp_pass=$(sudo grep 'A temporary password' /var/log/mysqld.log |tail -1 |awk '{split($0,a,": "); print a[2]}')
 echo "root_temp_pass:"$root_temp_pass
-mysqladmin -u root -p'$root_temp_pass' password 'Welcome1!' 
+mysqladmin -u root -p$root_temp_pass password 'Welcome1!' 
 ##############
 
 ########Initialize Application Database########
