@@ -104,8 +104,6 @@ sed -i "s#<\/tomcat-users>#  <role rolename=\"manager-script\" />\n  <user usern
 sed -i '{$!{N;s/<Valve.*\n.*allow.* \/>/<!--\n&\n-->/;ty;P;D;:y}}' /usr/local/apache/apache-tomcat-9/webapps/manager/META-INF/context.xml
 cd /usr/local/apache/apache-tomcat-9/bin
 ./startup.sh
-
-curl --user script:script --upload-file /opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war  http://localhost:8080/manager/text/deploy?path=/Supercar-Trader
 ##############
 
 #########Install PhantomJS v2.1.1########
@@ -117,4 +115,9 @@ sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/loc
 phantomjs --version
 sudo chmod 754 /opt/appdynamics/lab-artifacts/phantomjs/*.sh
 sed -i -e 's/\r$//' /opt/appdynamics/lab-artifacts/phantomjs/*.sh
+##############
+
+#########Deploy Application to Tomcat########
+sleep 30
+curl --user script:script --upload-file /opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war  http://localhost:8080/manager/text/deploy?path=/Supercar-Trader
 ##############
