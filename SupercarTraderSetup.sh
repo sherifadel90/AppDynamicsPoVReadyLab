@@ -6,7 +6,7 @@ sudo mkdir appdynamics
 sudo chown -R labuser:labuser /opt/appdynamics
 cd /opt/appdynamics
 mkdir lab-artifacts
-sudo yum install wget
+sudo yum -y install wget
 cd /opt/appdynamics/lab-artifacts
 wget https://povplaybook.appdpartnerlabs.net/zip/lab-artifacts.zip
 cd /opt/appdynamics/lab-artifacts
@@ -14,13 +14,13 @@ unzip lab-artifacts.zip
 ##############
 
 ########Install Java v1.8########
-sudo yum install java-1.8.0
+sudo yum -y install java-1.8.0
 ##############
 
 ########Installing MySQL v5.7########
 wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm
 sudo rpm -ivh mysql57-community-release-el7-9.noarch.rpm
-sudo yum install mysql-server
+sudo yum -y install mysql-server
 cd /tmp
 touch mysql_pubkey.asc
 echo "-----BEGIN PGP PUBLIC KEY BLOCK-----
@@ -74,7 +74,7 @@ sTSKHe+QnnnoFmu4gnmDU31i
 -----END PGP PUBLIC KEY BLOCK-----" >> mysql_pubkey.asc
 gpg --import mysql_pubkey.asc
 sudo rpm --import mysql_pubkey.asc
-sudo yum install mysql-server
+sudo yum -y install mysql-server
 sudo systemctl start mysqld
 service mysqld status
 root_temp_pass=$(sudo grep 'A temporary password' /var/log/mysqld.log |tail -1 |awk '{split($0,a,": "); print a[2]}')
@@ -111,7 +111,7 @@ cd /usr/local/apache/apache-tomcat-9/bin
 
 #########Install PhantomJS v2.1.1########
 cd /tmp
-sudo yum install glibc fontconfig freetype freetype-devel fontconfig-devel wget bzip2
+sudo yum -y install glibc fontconfig freetype freetype-devel fontconfig-devel wget bzip2
 wget https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-linux-x86_64.tar.bz2
 sudo tar xvjf phantomjs-2.1.1-linux-x86_64.tar.bz2 -C /usr/local/share/
 sudo ln -sf /usr/local/share/phantomjs-2.1.1-linux-x86_64/bin/phantomjs /usr/local/bin
