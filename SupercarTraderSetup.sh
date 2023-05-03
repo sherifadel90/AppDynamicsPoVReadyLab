@@ -79,10 +79,7 @@ sudo systemctl start mysqld
 service mysqld status
 root_temp_pass=$(sudo grep 'A temporary password' /var/log/mysqld.log |tail -1 |awk '{split($0,a,": "); print a[2]}')
 echo "root_temp_pass:"$root_temp_pass
-mysql -u root -p$root_temp_pass <<EOFMYSQL
-ALTER USER 'root'@'localhost IDENTIFIED BY "Welcome1!";
-FLUSH PRIVILEGES;
-EOFMYSQL
+mysqladmin -u root -p'$root_temp_pass' password 'Welcome1!' 
 ##############
 
 ########Initialize Application Database########
@@ -103,11 +100,15 @@ mv apache-tomcat-9.0.50 apache-tomcat-9
 echo "export CATALINA_HOME='/usr/local/apache/apache-tomcat-9/'" >> ~/.bashrc
 source ~/.bashrc
 sed -i "s#<\/tomcat-users>#  <role rolename=\"manager-gui\" />\n  <user username=\"admin\" password=\"welcome1\" roles=\"manager-gui\" />\n<\/tomcat-users>#" /usr/local/apache/apache-tomcat-9/conf/tomcat-users.xml
+sed -i "s#<\/tomcat-users>#  <role rolename=\"manager-script\" />\n  <user username=\"script\" password=\"script\" roles=\"manager-script\" />\n<\/tomcat-users>#" /usr/local/apache/apache-tomcat-9/conf/tomcat-users.xml
 sed -i '{$!{N;s/<Valve.*\n.*allow.* \/>/<!--\n&\n-->/;ty;P;D;:y}}' /usr/local/apache/apache-tomcat-9/webapps/manager/META-INF/context.xml
 cd /usr/local/apache/apache-tomcat-9/bin
 ./startup.sh
-##############
 
+wget --http-user=script --http-password=script  "http://localhost:8080/manager/text/deploy?war=file:/opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war&path=/Supercar-Trader"
+
+curl --user script:script --upload-file /opt/appdynamics/lab-artifacts/app-war-file/Supercar-Trader.war  http://localhost:8080/manager/text/deploy?path=/Supercar-Trader
+##############
 
 #########Install PhantomJS v2.1.1########
 cd /tmp
